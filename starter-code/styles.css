@@ -1,0 +1,288 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-size: 14px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.clearfix {
+    clear: both;
+}
+
+/*================================================*/
+
+/*when minimizing the page the list covers the top-lift*/
+nav{
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 8px 5% 8px 5%;
+    margin: 0;
+    height: 20px;
+}
+
+nav a{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.heart{
+    padding-right: 16px;
+    border-right: 1px solid;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.top-left{
+    position: absolute;
+    height: 20px;
+    padding: 0px 16px 0px 16px;
+    margin: 0px 5px 0px 0px;
+    width: 33%;
+}
+
+.top-links{
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+  
+.top-links li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*================================================*/
+
+.search-bar{
+    background-color: white;
+    width: auto;
+    margin:20px 10% 20px 10%;
+    /*padding: 0px 20px 0px 20px;*/    
+}
+
+.search-img1{ 
+    height: 40px; 
+    margin-right: 10px;
+    float: left;
+}
+
+.search-input{ 
+    background-color: #e9e9e9; 
+    width: 50%; 
+    height: 40px; 
+    padding-left: 15px;
+    border: 0px; 
+    border-radius: 5px; 
+}
+
+.search-bar b{
+    display: inline;
+    margin-left: 10px;
+}
+
+.search-bar a{
+    color: rgba(61, 58, 58, 0.8);
+    text-decoration: none;
+}
+
+/*the img doesn't align properly
+.search-img2{ 
+    width: 30px; 
+    height: 30px;
+    /*float: right;
+}*/
+
+/*================================================*/
+
+.header{
+    background-image: url("/home/rawan/Desktop/web development/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+    background-color: #1D4E69;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.header-box{
+    width: 50%;
+    padding: 4rem;
+    position: absolute;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 200;
+    color: white;
+    padding: 16px 0px 16px 0px;
+    margin: 33px 0px 33px 0px;  
+}
+
+p{
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: white;
+}
+
+.header-btn{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(240, 146, 51);
+    padding: 7px 26px 8px 26px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 15px;
+    line-height: 1.35;
+}
+
+/*================================================*/
+
+.dark-background{
+    background-color: #273547;
+    color: white;
+}
+
+.collab-box{
+    margin: 0px 12% 0px 12% ;
+    padding-top: 6rem;
+    padding-bottom: 1px;
+    max-width: 64rem;
+    height: 500px;
+}
+
+.col-l{
+    float: left;
+    width: 45%;
+    padding-right: 1rem;
+}
+
+.collab-img{
+    max-width: 100%;
+}
+
+.col-r{
+    float: right;
+    width: 45%;
+    padding-left: 1rem;
+} 
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+ul{
+    margin-top: 10px;
+    padding-left: 40px; 
+}
+
+li{
+    padding: 8px 0px 8px 0px;
+}
+
+.collab-btn{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(203, 56, 55);
+    padding: 7px 26px 8px 26px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 15px;
+    line-height: 1.35;
+}
+
+.collab-a{
+    color: rgba(255,255,255,0.8);
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/*================================================*/
+
+.install{
+    background-image: url("/home/rawan/Desktop/web development/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+    background-size: contain;
+    height: 250px;
+    padding: 6rem 0px 6rem 0px;
+    position: relative;
+}
+
+.install-box{
+    width: 30%;
+    padding: .5rem;
+    position: absolute;
+    color: white;
+    margin: 0px 190px 0px 190px;
+}
+
+.install-btn{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(49, 68, 88);
+    padding: 7px 26px 8px 26px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 15px;
+    line-height: 1.35;
+}
+
+/*================================================*/
+
+.blocks{
+    margin: 32px 190px 32px 190px;
+    padding: 0px 16px 0px 16px;
+    text-align: center;
+}
+
+.blocks-header{
+    margin: 15px;
+    padding: 15px; 
+}
+
+.blocks-p{
+    color: rgb(51, 51, 51);
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.blocks-a{
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
+
+.service-box {
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px transparent;
+    box-sizing: border-box;
+    width: 31%;
+    margin: 30px 10px 0;
+    padding: 10px;
+}
+
+.block-col{
+    float: left;
+}
+
+  
