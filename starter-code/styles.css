@@ -111,7 +111,7 @@ nav a:hover{
 /*================================================*/
 
 .header{
-    background-image: url("/home/rawan/Desktop/web development/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+    background-image: url("./images/city-scape.svg");
     background-color: #1D4E69;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ li{
 /*================================================*/
 
 .install{
-    background-image: url("/home/rawan/Desktop/web development/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+    background-image: url("./images/forklift.svg");
     background-size: contain;
     height: 250px;
     padding: 6rem 0px 6rem 0px;
